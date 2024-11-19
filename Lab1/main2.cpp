@@ -3,7 +3,7 @@
 
 int main() {
     std::string name;
-    std::cout << "Enter the name: ";
+    std::cout << "Введіть ім'я: ";
     std::getline(std::cin, name);
     std::cout << "Hello, " << name << "!" << std::endl;
     return 0;
